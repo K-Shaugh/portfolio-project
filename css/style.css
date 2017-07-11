@@ -1,5 +1,5 @@
 body{
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     color: #2d3c49;
     font-weight: 400;
 }
@@ -17,5 +17,11 @@ body{
 }
 
 .title-logo{
-    margin-top:30px;
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 350px){
+    .title-super{
+        font-size: 25px;
+    }
 }
